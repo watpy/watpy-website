@@ -26,10 +26,23 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Twitter', 'https://twitter.com/watpy'),
+          ('Meetup', 'https://www.meetup.com/watpymeetup/'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Buruma-related configuration.
+# More settings: https://buruma.ivanhercaz.com/settings
+THEME = "themes/buruma"
+JINJA_ENVIRONMENT = {
+    "extensions": ["jinja2.ext.i18n"],
+}
+PLUGIN_PATHS = ["pelican-plugins"]
+PLUGINS = ["i18n_subsites", ]
+CATS_NOT_DROPDOWN = True
+WELCOME_HEADING = "WatPy is the Waterloo region Python users group."
+LICENSE = True
+LICENSE_NOTICE = "Licensed under the Creative Commons Attribution-ShareAlike 4.0 International License"
