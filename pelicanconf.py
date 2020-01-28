@@ -40,7 +40,7 @@ THEME = "themes/buruma"
 JINJA_ENVIRONMENT = {
     "extensions": ["jinja2.ext.i18n"],
 }
-PLUGIN_PATHS = ["pelican-plugins"]
+PLUGIN_PATHS = ["plugins"]
 PLUGINS = ["i18n_subsites", ]
 CATS_NOT_DROPDOWN = True
 WELCOME_HEADING = "WatPy is the Waterloo region Python users group."

@@ -1,0 +1,6 @@
+[submodule "themes/buruma"]
+	path = themes/buruma
+	url = git@github.com:ivanhercaz/buruma.git
+[submodule "plugins"]
+	path = plugins
+	url = https://github.com/getpelican/pelican-plugins
