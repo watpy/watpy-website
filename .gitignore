@@ -133,4 +133,4 @@ dmypy.json
 
 # Pelican-related activities
 output/
-pelican-plugins/
+plugins/
