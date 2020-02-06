@@ -29,6 +29,16 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('Twitter', 'https://twitter.com/watpy'),
           ('Meetup', 'https://www.meetup.com/watpymeetup/'),)
 
+MENUITEMS_NAVBAR_FEATURED = (("Meetup",
+                              "https://www.meetup.com/watpymeetup/",
+                              "is-link"),
+                             ("Learn",
+                              "/pages/learn.html",
+                              "is-link"),
+                             ("Resources",
+                              "/pages/resources.html",
+                              "is-link"))
+
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing

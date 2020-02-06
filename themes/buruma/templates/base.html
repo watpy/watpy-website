@@ -96,8 +96,6 @@
 					<div class="column">
 						{% if FOOTER %}
 							{{ FOOTER }}
-						{% else %}
-							<p>{% trans %}Website generated with{% endtrans %} <a href="https://getpelican.com">Pelican</a>. <a href="https://github.com/ivanhercaz/buruma">Buruma</a> {% trans %}theme by{% endtrans %} <a href="https://ivanhercaz.com">Ivanhercaz</a></p>
 						{% endif %}
 						<p><a href="https://bulma.io">
 							<img src="/theme/images/made_with_bulma.png" alt="Made with Bulma" width="128" height="24">
@@ -105,7 +103,7 @@
 					</div>
 					<div class="column">
 						{% if LICENSE %}
-							{{ LICENSE_NOTICE}}	
+							{{ LICENSE_NOTICE}}
 						{% else %}
 							<p>{% trans %}All rights reserved ©{% endtrans %} {{ AUTHOR }}</p>
 						{% endif %}
