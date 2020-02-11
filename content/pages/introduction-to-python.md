@@ -1,4 +1,4 @@
-Title: Python
+Title: Introduction to Python
 Date: 2020-01-15 20:00
 
 > This work is licensed under the Creative Commons
