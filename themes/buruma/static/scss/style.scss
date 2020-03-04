@@ -1,7 +1,7 @@
 @charset "utf-8";
 
-$dark-sea: hsl(208.6, 18.6%, 22.2%);
-$sea: hsl(192.5, 48%, 29.4%);
+$sea: #8fbb6c;
+$dark-sea: darken($sea, 20%);
 $light-sea: hsl(179.5, 79.4%, 30.4%);
 $turquoise: hsl(159.3, 45.4%, 48.8%);
 $light-green: hsl(105, 56.1%, 67.8%);
@@ -21,6 +21,10 @@ $text: $grey-dark
 */
 
 @import "../../node_modules/bulma/bulma.sass";
+
+.title {
+	font-weight: normal;
+}
 
 h2 {
 	a {
@@ -57,12 +61,12 @@ h2 {
 			margin-top: 6px;
 		}
 	}
-	
+
 	.table {
 		margin: 25px !important;
 		padding: 5px !important;
 	}
-	
+
 	.image {
 		@extend .has-text-centered;
 		background: $white-ter;
@@ -70,7 +74,7 @@ h2 {
 		margin: 0 auto !important;
 
 		figcaption {
-			color: $grey-darker; 
+			color: $grey-darker;
 			margin-left: 2px;
 			margin-right: 2px;
 			margin-bottom: 4px;

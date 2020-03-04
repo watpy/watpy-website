@@ -6,3 +6,9 @@
 - Ensure python3.7 is available, e.g. `mkvirtualenv watpy -p python3`
 - `pip install -r requirements.txt`
 - `invoke livereload`
+
+# Edit CSS
+
+- `cd themes/buruma`
+- `npm install`  (tested with node 6)
+- `npm start`
